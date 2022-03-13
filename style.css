@@ -1,0 +1,204 @@
+body{
+	background-color:#1a1c1b; 	
+}
+/* Anchor tag for navbar for links and visted links */
+a:link  , a:visited  {
+  color:white;
+  text-decoration: none;
+  text-align: center;
+  display:inline-block;
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 23px;
+  font-weight: bold;
+}
+/* Anchor tag for navbar when we hover over an option or the option is active. */
+a:hover , a:active  {
+  background-color: white; 
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  display:inline-block;
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 23px;
+  font-size: 150%;
+  font-weight: bold;
+  border-radius: 8px;
+
+}
+/* Current navbar tab */
+a.current {
+	background-color: white;
+	opacity: 0.85;
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  display:inline-block;
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 23px;
+  font-size: 150%;
+  font-weight: bold;
+  border-radius: 8px;
+}
+p{
+	color: #fafafa;
+	font-size: 120%;
+	font-family: 'Roboto', sans-serif;
+	
+}
+/* Images in left in the article */
+img{
+	float:left;
+}
+/* Footer in article and gallery */
+footer{
+	clear: both;
+	text-align: right;
+	color: #fafafa;
+	font-size: 80%;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	border: 5px solid #cfcaca;
+	margin: 0px;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+
+}
+/* Headings for article */
+h4{
+	color:#ef5323;
+	text-align: center;
+	text-decoration: underline #ef5323 ;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size:200%;
+	margin-bottom: 0%;
+}
+/* List in navbar */
+li {
+	list-style: none;
+	display:inline-block;
+	color:#fafafa ;
+	font-family: 'Roboto', sans-serif;
+}
+/* Form CSS */
+#regform{
+	color: #fafafa;
+	font-size:100%;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 35%;
+	border: #cfcaca ;
+	border-radius: 4px;
+	
+}
+/* Image in the main article */
+.center{
+	height: 400px;
+	width: 500px;
+	display: block;
+	float:left;
+	margin: 5px;
+ 
+}
+/* Article body CSS */
+.news{
+	color: #fafafa;
+	font-size: 120%;
+	font-family: 'Roboto', sans-serif;
+	line-height: 30px;
+	text-align: justify;	
+}
+/* Join button, Reset button and sign-in button CSS */
+.button{
+	background-color:#ef5323;
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  display:inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  font-size: 1em;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid
+  
+}
+/* Form displayed in center */
+.myform{
+	display: flex;
+  justify-content: center;
+}
+/* Input fields size CSS */
+.fields{
+    width: 300px;
+	height: 30px;
+	border-radius: 4px;
+	
+}
+hr{
+	border: 1px solid #ef5323;
+}
+/* Sign-in page CSS */
+#sin{
+	color: #fafafa;
+	font-size:100%;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+/* Heading of Article */
+#heading{
+	color: #ef5323;
+	font-size:120%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	text-decoration:  underline #ef5323 ;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+/* Author of Article */
+#author{
+	color: #fafafa;
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	margin-left:50%;
+margin-bottom: 15px;
+
+}
+/* Multiple Article previews in different columns */
+.column {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	margin:2%;
+	height: 300px; /* Should #fafafabe removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  * {
+	box-sizing: border-box;
+  }
+/* Logout button CSS */
+#logout{
+color: #ef5323 ;
+text-decoration: underline #ef5323  ;
+font-weight: bold;
+border-left: 4px solid #cfcaca ;
+
+}
+/* Preview article images */
+#moreimg{
+	height: 200px;
+	width: 300px;
+	margin-left: 5%;	
+}

@@ -1,0 +1,29 @@
+body{
+	background-color:#1a1c1b; 
+	
+}
+.gal{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h2{
+	color: white;
+	text-align: center;
+	border: 5px solid #cfcaca;
+	margin: 0px;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-size: 200%;
+
+}
+img{
+	width:450px;
+	height: 300px;
+	margin:10px;
+	transition: all 1s;
+
+}
+img:hover{
+	transform: scale(1.1);
+}
